@@ -1,0 +1,96 @@
+:root {
+    --bgColor:#ddd;
+    --marge:10px;
+}
+
+body {
+    font-family:Arial, sans-serif;
+    background-color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-variant:small-caps;
+    letter-spacing:4px;
+    text-align: center;
+}
+h4 {
+    border-top:2px solid rgb(0, 123, 255);
+    padding-top: 5px;
+}
+section.sousPage {
+    margin: 5px;
+    padding: var(--marge);
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 200px;
+}
+section.sousPage h3 {
+    margin-top: 0px;
+}
+div.date {
+    font-size: .8em;
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+form.inscription {
+    background-color: #fff;
+    border-radius: 5px;
+    width:380px;
+    margin: 0 auto;
+    padding: 5px;
+}
+td {
+    padding:5px;
+}
+.lesVignettes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vignette {
+    background-color:#fff;
+    border-radius: 3px;
+    margin:10px;
+    padding:10px;
+    display:inline-block;
+    box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tablePays, .tablePays table  {
+    border-collapse: collapse;
+}
+.tablePays table  {
+    width:100%;
+}
+.tablePays>tbody>tr:nth-child(odd) {
+    background-color: #fff;
+}
+.tablePays>tbody>tr:nth-child(even) {
+    background-color: #cfc;
+}
+.tablePays>tbody>tr>td>table>tbody>tr:nth-child(odd) {
+    background-color: #fcc;
+}
+.tablePays>tbody>tr>td>table>tbody>tr:nth-child(even) {
+    background-color: #ccf;
+}
+.vignette h4{
+    margin:0;
+    font-variant:small-caps;
+    letter-spacing:2px;
+    border-width: 0;
+    border-bottom:1px solid rgb(255, 0, 187);
+}
+.rouge {
+    color:#800;
+}
+form>p>label {
+    display: inline-block;
+    width:100px;
+    text-align: right;
+    margin-right: 5px;
+}

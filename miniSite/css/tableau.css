@@ -1,0 +1,41 @@
+table.etudiant {
+    border-collapse: collapse;
+    display: inline-block;
+    margin-left: 10px;
+}
+table.etudiant tr:nth-child(odd){
+    background-color: hsl(46, 33%, 70%);
+}
+table.etudiant tr:nth-child(even){
+    background-color: hsl(226, 33%, 70%);
+    color:#fff;
+}
+table.etudiant tr th {
+    font-variant: small-caps;
+    background-color: hsl(0, 0%, 25%);
+    color:#ccc;
+    padding: 5px;
+}
+table.etudiant tr td {
+    padding: 2px 5px 0 5px;
+}
+table.etudiant img{
+    border-radius: 50%;
+}
+
+table.etudiant th a, table.etudiant td a {
+    text-decoration: none;
+    color: #fff;
+}
+table.etudiant th a:hover, table.etudiant td a:hover, table.etudiant td input:hover  {
+    color: #0f0;
+}
+table.etudiant td a, table.etudiant td input {
+    cursor: pointer;
+    color: #fff;
+    font-size: 2em; 
+    background-color: transparent;
+    border-color: transparent;
+    width:100px;
+    text-align: center;
+}
